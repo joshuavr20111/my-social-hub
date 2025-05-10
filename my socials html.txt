@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Social Media Hub</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+      color: #333;
+      text-align: center;
+    }
+
+    header {
+      background-color: #ff0000;
+      color: white;
+      padding: 30px 0;
+      font-size: 2.5em;
+    }
+
+    .intro {
+      margin: 20px 0;
+      font-size: 1.2em;
+    }
+
+    .social-links {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .social-links a {
+      font-size: 1.5em;
+      color: #ff0000;
+      text-decoration: none;
+      padding: 10px;
+      border: 2px solid #ff0000;
+      border-radius: 50%;
+      transition: background-color 0.3s;
+    }
+
+    .social-links a:hover {
+      background-color: #ff0000;
+      color: white;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 15px 0;
+      margin-top: 30px;
+    }
+
+  </style>
+</head>
+<body>
+
+<header>
+  Your Social Media Hub
+</header>
+
+<div class="intro">
+  <p>Welcome to my social media hub! Here you can find all my profiles in one place.</p>
+</div>
+
+<!-- Social Media Links -->
+<div class="social-links">
+  <!-- YouTube Link -->
+  <a href="https://youtube.com/@theameparkclips" target="_blank" title="YouTube">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube" width="50" height="50">
+  </a>
+  
+  <!-- Add more platforms here (e.g., Twitter, LinkedIn, etc.) -->
+  <a href="https://twitter.com/YOUR_USERNAME" target="_blank" title="Twitter">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Twitter_Logo_2021.svg" alt="Twitter" width="50" height="50">
+  </a>
+  
+  <!-- Another platform -->
+  <a href="https://www.linkedin.com/in/YOUR_USERNAME" target="_blank" title="LinkedIn">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/80/LinkedIn_icon_2013.svg" alt="LinkedIn" width="50" height="50">
+  </a>
+</div>
+
+<footer>
+  <p>Contact me: your.email@example.com</p>
+</footer>
+
+</body>
+</html>
